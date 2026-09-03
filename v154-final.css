@@ -1,0 +1,17 @@
+/* TapCard Pro v1.5.4 FINAL — Created by Apostolis Karamichalis. */
+.tcp-customer-card .tcp-identity{display:flex;flex-direction:column;align-items:center;gap:2px;margin:0!important;padding:0!important}
+.tcp-customer-card .tcp-logo{display:block;margin:0!important;padding:0!important;max-height:90px;object-fit:contain}
+.tcp-customer-card .tcp-customer-name{margin:2px 0 0!important;padding:0!important;line-height:1.05!important}
+.tcp-password-wrap{display:flex;gap:6px;align-items:stretch}
+.tcp-password-wrap input{flex:1;min-width:0}
+.tcp-show-password{padding:8px 10px;border:1px solid #ccc;border-radius:8px;background:#eee;cursor:pointer}
+.tcp-forgot{display:block;margin-top:10px}
+.tcp-visibility-order{margin-top:18px;padding-top:10px;border-top:1px solid #ddd}
+#tcp-visible-fields{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:14px}
+.tcp-visibility-item{font-weight:500!important;margin:0!important}
+.tcp-visibility-item input{width:auto!important}
+#tcp-field-order{display:grid;gap:6px}
+.tcp-sort-item{padding:11px 12px;border:1px solid #ddd;border-radius:9px;background:#eee;cursor:grab}
+.tcp-media-library-box{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.tcp-custom-icon{width:28px!important;height:28px!important;object-fit:contain!important;vertical-align:middle}
+@media(max-width:520px){#tcp-visible-fields{grid-template-columns:1fr}}

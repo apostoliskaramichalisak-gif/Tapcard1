@@ -1,0 +1,52 @@
+/** TapCard Pro v1.2. Created by Apostolis Karamichalis. */
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#111827;background:#f3f4f6}*{box-sizing:border-box}body{margin:0;background:#f3f4f6}.tcp-app{min-height:100vh;padding:16px}.tcp-card{width:100%;max-width:560px;background:#fff;border-radius:24px;padding:24px;box-shadow:0 12px 40px rgba(17,24,39,.1)}.tcp-dashboard{width:100%;max-width:1100px;margin:auto}.tcp-topbar{display:flex;justify-content:space-between;align-items:center;padding:8px 4px 18px}.tcp-topbar div{display:grid;gap:3px}.tcp-topbar span{font-size:13px;color:#6b7280}.tcp-dashboard-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(280px,.7fr);gap:18px}.tcp-muted{color:#6b7280}.tcp-form{display:grid;gap:13px}.tcp-form label{display:grid;gap:7px;font-weight:650}.tcp-form input{width:100%;padding:13px 14px;border:1px solid #d1d5db;border-radius:12px;font:inherit}.tcp-button,.tcp-action{display:block;width:100%;border:0;border-radius:13px;padding:14px 16px;margin-top:10px;text-align:center;text-decoration:none;font-weight:750;cursor:pointer;background:#111827;color:#fff}.tcp-button.secondary{background:#374151}.tcp-result{margin-top:16px}.tcp-actions{display:grid;gap:8px;margin:20px 0}.tcp-action{margin:0}.tcp-avatar{display:block;width:112px;height:112px;object-fit:cover;border-radius:50%;margin:0 auto 18px}.tcp-logo{display:block;max-width:180px;max-height:70px;object-fit:contain;margin:0 auto 18px}.tcp-customer-card{text-align:center}.tcp-qr-box{margin-top:22px;padding-top:18px;border-top:1px solid #e5e7eb;text-align:center}.tcp-qr-box img{width:min(320px,100%);height:auto;border-radius:14px}.tcp-mini-preview{border:1px solid #e5e7eb;border-radius:18px;padding:20px;margin:12px 0 18px;background:#fafafa}.tcp-preview-name{font-size:22px;font-weight:800;margin-bottom:5px}.tcp-icon-button{border:1px solid #d1d5db;background:#fff;border-radius:11px;padding:9px 12px;font-weight:700;cursor:pointer}@media(max-width:760px){.tcp-dashboard-grid{grid-template-columns:1fr}.tcp-card{padding:20px}.tcp-app{padding:10px}}
+
+/* TapCard Pro v1.4.0 — Created by Apostolis Karamichalis */
+.tcp-customer-card .tcp-logo{margin-bottom:6px!important}
+.tcp-customer-card #tcp-name{margin-top:4px!important;margin-bottom:5px!important}
+.tcp-customer-card .tcp-actions{margin-top:14px}
+.tcp-action-icon{display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:12px!important;text-align:left!important}
+.tcp-action-icon-symbol{width:30px;min-width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;font-size:21px;font-weight:800;line-height:1}
+.tcp-action-label{flex:1;line-height:1.25}
+.tcp-brand{display:none!important}
+
+/* v1.5.2 FINAL public card spacing — Created by Apostolis Karamichalis */
+.tcp-customer-card .tcp-logo{margin:0 auto 2px!important;max-height:72px!important}
+.tcp-customer-card #tcp-photo{margin:0 auto 4px!important}
+.tcp-customer-card #tcp-name{margin:0!important;padding:0!important;line-height:1.12!important}
+.tcp-customer-card #tcp-company,.tcp-customer-card #tcp-title{margin:2px 0!important}
+.tcp-customer-card .tcp-actions{margin-top:10px!important}
+.tcp-custom-icon{width:28px!important;height:28px!important;object-fit:contain!important;border-radius:5px}
+.tcp-media-item img{width:64px;height:64px;object-fit:contain}
+
+/* v1.5.3 FINAL — Created by Apostolis Karamichalis */
+.tcp-customer-card .tcp-logo{margin:0 auto 0!important;padding:0!important}
+.tcp-customer-card #tcp-name{margin:0!important;padding:0!important;line-height:1!important}
+.tcp-customer-card #tcp-company,.tcp-customer-card #tcp-title{margin:0!important;line-height:1.1!important}
+.tcp-user-form button[type=submit],#tcp-user-form button[type=submit]{display:block!important;visibility:visible!important;opacity:1!important}
+
+/* v1.6.9 — Created by Apostolis Karamichalis */
+.tcp-install-card,.tcp-share-modal{position:fixed;inset:0;z-index:999999;background:rgba(15,23,42,.72);display:grid;place-items:center;padding:16px}
+.tcp-install-dialog,.tcp-share-dialog{width:min(100%,480px);max-height:92vh;overflow:auto;background:#fff;border-radius:24px;padding:24px;box-shadow:0 24px 70px rgba(0,0,0,.3);position:relative}
+.tcp-install-close,.tcp-share-close{position:absolute;right:12px;top:8px;border:0;background:transparent;font-size:30px;cursor:pointer}
+.tcp-install-fallback{margin-top:15px;padding:14px;border-radius:14px;background:#f3f4f6}
+.tcp-share-qr{text-align:center;margin:14px 0}.tcp-share-qr img{width:min(320px,100%);height:auto;border-radius:12px}
+.tcp-share-url-label{display:grid;gap:6px;font-weight:700}.tcp-share-url-label input{width:100%;padding:12px;border:1px solid #d1d5db;border-radius:10px}
+.tcp-share-actions{display:grid;gap:8px;margin-top:12px}.tcp-share-actions .tcp-button{margin:0}
+.tcp-auth-success{padding:12px;border-radius:12px;background:#ecfdf5;color:#065f46;margin:12px 0}
+
+/* TapCard Pro v1.6.9 — Created by Apostolis Karamichalis */
+.tcp-exit-button{background:#dc2626!important;color:#fff!important;border-color:#dc2626!important}
+.tcp-save-button{background:#2563eb!important;color:#fff!important}
+.tcp-modal-open{overflow:hidden!important}
+.tcp-share-modal[hidden],.tcp-install-card[hidden]{display:none!important}
+.tcp-icon-button:disabled{opacity:.45;cursor:not-allowed;pointer-events:none}
+/* Frontend Media Library — Created by Apostolis Karamichalis. */
+.tcp-media-overlay{position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(15,23,42,.72)!important;display:grid!important;place-items:center!important;padding:16px!important}
+.tcp-media-modal{width:min(900px,100%);max-height:92vh;overflow:auto;background:#fff;border-radius:20px;padding:22px;position:relative;box-shadow:0 24px 70px rgba(0,0,0,.3)}
+.tcp-media-close{position:absolute;right:12px;top:8px;border:0;background:transparent;font-size:30px;cursor:pointer}
+.tcp-media-toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:12px 0}.tcp-media-upload-input{max-width:100%}
+.tcp-media-status{padding:12px;border-radius:10px;background:#f3f4f6;margin:10px 0}.tcp-media-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px}
+.tcp-media-item{border:1px solid #d1d5db;background:#fff;border-radius:12px;padding:8px;cursor:pointer;text-align:center}.tcp-media-item img{width:100%;height:100px;object-fit:contain;display:block}.tcp-media-item span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:6px;font-size:12px}
+
+.tcp-media-toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.tcp-media-search{flex:1;min-width:180px;min-height:44px;border:1px solid #cbd5e1;border-radius:10px;padding:8px 12px}.tcp-media-upload-input{max-width:180px}.tcp-media-pagination{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:16px}.tcp-media-page-label{font-weight:700}.tcp-media-item:focus{outline:3px solid #111827;outline-offset:2px}

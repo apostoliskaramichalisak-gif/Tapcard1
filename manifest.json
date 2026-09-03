@@ -1,0 +1,9 @@
+{
+  "name": "TapCard Pro",
+  "short_name": "TapCard",
+  "start_url": "/tapcard-customer/",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#111827",
+  "description": "NFC and QR digital profile platform created by Apostolis Karamichalis."
+}
